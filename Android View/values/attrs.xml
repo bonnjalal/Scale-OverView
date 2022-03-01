@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleView">
+        <!--Overlay view-->
+
+        <attr name="ScaleView_dimmed_color" format="color"/>
+
+        <attr name="ScaleView_stroke_size" format="dimension"/>
+        <attr name="ScaleView_grid_color" format="color"/>
+        <attr name="ScaleView_grid_row_count" format="integer"/>
+        <attr name="ScaleView_grid_column_count" format="integer"/>
+        <attr name="ScaleView_show_crop_grid" format="boolean"/>
+        <attr name="ScaleView_crop_grid_size" format="dimension"/>
+        <attr name="ScaleView_enable_drag" format="boolean"/>
+        <attr name="ScaleView_corner_bitmap" format="reference"/>
+    </declare-styleable>
+
+    
+</resources>
