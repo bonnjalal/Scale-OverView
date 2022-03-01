@@ -3,6 +3,10 @@ Scale Overlay View for Android view (xml) and jetpack Compose
 
 This is a simple overlay view that the user can scale it as he want, and can put this view above other views like image and get scale or crop coordinates.
 
+# Preview :
+
+<img src="https://user-images.githubusercontent.com/42393256/156260667-48b1b542-b9ce-4f0c-a993-fa9b7daaa1cc.png" alt="preview" width="300" height="533">
+
 # usage in Android as view (xml)
 First copy Android View/ScaleView.kt and Android View//values/attrs.xml files to your project.
 
