@@ -85,7 +85,9 @@ fun scaleOverView(
                         currentPosition = it.position
                         //gestureColor = Color.Blue
                     }
-
+                    val event: PointerEvent = awaitPointerEvent()
+                    cp = event.changes.first().position
+                    
                     do {
                         // This PointerEvent contains details including events, id, position and more
                         val event: PointerEvent = awaitPointerEvent()
